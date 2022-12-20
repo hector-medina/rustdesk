@@ -46,3 +46,18 @@ chmod +x /usr/local/bin/docker-compose
 export IP_ADDR=188.166.71.111
 ````
 
+### 4. Iniciar el servicio.
+
+Para inicial el servicio debemos utilizar el fichero `docker-compose.yml` de este repositorio. 
+
+````
+docker-compose up -d
+````
+
+## Configuración cliente.
+
+Ahora debes indicar a tus clientes RustDesk que utilicen tu nuevo servidor. Para ello solamente tendrás que indicar la IP de tu servidor como ID Server y Relay Server.
+
+La conexión no está cifrada ni protegida con contraseña. Es conveniente añadir una contraseña, sino todo el mundo que añada tu servidor podrá utilizarlo. Tambien es conveniente cifrar el tráfico, ya que actualmente no está cifrado.
+
+
