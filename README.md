@@ -6,13 +6,13 @@ Configuración de un servidor de escritorio remoto con docker.
 
 Para instalar el servidor debes seguir los siguientes pasos.
 
-### Clonar este repositorio.
+### 1. Clonar este repositorio.
 
 ````
 git clone https://github.com/hector-medina/rustdesk
 ````
 
-### Acceder al repositorio.
+### 2. Acceder al repositorio.
 
 Al clonarlo habrás creado un directorio llamado `rustdesk`, debes entrar en él.
 
@@ -20,13 +20,14 @@ Al clonarlo habrás creado un directorio llamado `rustdesk`, debes entrar en él
 cd ruskdesk
 ````
 
-### Instalar docker y docker-compose.
+### 3. Instalar docker y docker-compose.
 
 Para instalar docker y docker-compose, debes ejecutar el script `install.sh` o ejecutar los comando que hay en el script.
 
-Ejecutar install.sh
+Ejecutar install.sh. Ten en cuenta que deberás modificar el último paso, donde creamos una variable de entorno con la IP del servidor. 
 
 ````
+# Modifica la IP_ADDR antes!
 ./intall.sh
 ````
 
