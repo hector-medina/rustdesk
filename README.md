@@ -54,9 +54,11 @@ Para inicial el servicio debemos utilizar el fichero `docker-compose.yml` de est
 docker-compose up -d
 ````
 
-## Configuración cliente.
+### 5. Configuración cliente.
 
-Ahora debes indicar a tus clientes RustDesk que utilicen tu nuevo servidor. Para ello solamente tendrás que indicar la IP de tu servidor como ID Server y Relay Server.
+Ahora debes indicar a tus clientes RustDesk que utilicen tu nuevo servidor. Para ello solamente tendrás que indicar la IP de tu servidor como ID Server y Relay Server. Puedes encontrar más información en https://rustdesk.com/docs/en/self-host/install/#step-3--set-hbbshbbr-address-on-client-side
+
+## Conclusión.
 
 La conexión no está cifrada ni protegida con contraseña. Es conveniente añadir una contraseña, sino todo el mundo que añada tu servidor podrá utilizarlo. Tambien es conveniente cifrar el tráfico, ya que actualmente no está cifrado.
 
